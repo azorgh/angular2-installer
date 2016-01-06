@@ -1,0 +1,22 @@
+{
+    "name": "pallmallshow/angular2-installer",
+    "description": "Angular2 application installer.",
+    "keywords": ["angular2"],
+    "authors": [
+        {
+            "name": "PallMallShow"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PallMallShow\\Installer\\Console\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "~2.3",
+        "symfony/process": "~2.3"
+    },
+    "bin": [
+        "angular"
+    ]
+}
